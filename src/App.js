@@ -79,7 +79,7 @@ function App() {
           <h2>Links</h2>
           <ul>
             <li><a className="dropdown-item" href="https://github.com/mandoosorio" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a className="dropdown-item" href="https://www.linkedin.com/in/mandoosorio/" target="_blank" rel="noopener noreferrer">LinkeIn</a></li>
+            <li><a className="dropdown-item" href="https://www.linkedin.com/in/mandoosorio/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             <li>Email: osoriomando2345@gmail.com</li>
             <li>Phone: 562-639-5862</li>
           </ul>
