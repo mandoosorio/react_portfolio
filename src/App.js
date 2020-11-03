@@ -107,6 +107,7 @@ function App() {
     {/* <!--3 COLUMNS--> */}
     <br></br>
     <div id="router">
+    <h3 id="cli-title">Main Applications</h3>
     <Router>
       <div>
         <NavTabs />
