@@ -9,14 +9,10 @@ import Project4 from "./components/pages/Project4";
 import Project5 from "./components/pages/Project5";
 import Project6 from "./components/pages/Project6";
 import pitchit from "./imgs/pitchit.png";
-import burger from "./imgs/burger_app.png";
 import center from "./imgs/center_top.jpg";
 import employee from "./imgs/employee_app.png";
-import notes from "./imgs/note_taker.png";
 import readme from "./imgs/readme_app.png";
-import schedule from "./imgs/schedule.png";
 import team from "./imgs/team_app.png";
-import weather from "./imgs/weather_dashboard.png";
 
 function App() {
   return (
@@ -75,8 +71,22 @@ function App() {
     {/* <!--PROFILE PICTURE-->
 
     <!--NEXT TO IMAGE HAVE A UTILITIES BAR WITH CALENDAR, DATE, ETC-->
-
+      
     <!--3 COLUMNS--> */}
+
+    <div className="container">
+      <div className="col-sm-4 center-column links">
+          <h2>Links</h2>
+          <ul>
+            <li><a className="dropdown-item" href="https://github.com/mandoosorio" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a className="dropdown-item" href="https://www.linkedin.com/in/mandoosorio/" target="_blank" rel="noopener noreferrer">LinkeIn</a></li>
+            <li>Email: osoriomando2345@gmail.com</li>
+            <li>Phone: 562-639-5862</li>
+          </ul>
+      </div>
+    </div>
+
+
     <div className="container">
         <div className="row">
           <div className="col-sm-4 left-column">
@@ -111,7 +121,7 @@ function App() {
     </div>
     <br></br>
     {/* <!--ACTIVITIES will include a skeleton version of rock, paper, scissor as well as the password generator--> */}
-    <div className="container" id="activities">
+    {/* <div className="container" id="activities">
       <div className="row row-cols-2">
         <div className="col top-left">
           <h4><a href="https://nodejs-note-taker.herokuapp.com" target="_blank" rel="noopener noreferrer">Node Server Note Taker</a></h4>
@@ -142,7 +152,7 @@ function App() {
             <img id="burger" className="basics" src={burger} alt="MVC Burger App"></img>
         </div>
       </div>
-    </div>
+    </div> */}
     {/* <!--ACTIVITIES-->
 
     <!--CLI PROJECTS--> */}

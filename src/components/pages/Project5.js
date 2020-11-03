@@ -3,14 +3,15 @@ import budget from "../../imgs/budget.png";
 
 function Project5() {
   return (
-    <div>
-      <h1>Project5</h1>
-      <div className="col top-left">
-        <h4><a href="https://mvc-style-burger-app.herokuapp.com" target="_blank" rel="noopener noreferrer">Online-Offline Budget Tracker</a></h4>
-        <p className="basics">
-          An app using MySQL, Node, Express, Handlebars and a homemade ORM. Following MVC design pattern; using Node and MySQL to query and route data, and Handlebars to generate HTML.
+    <div className="relative">
+      <h1><a className="atwo" href="https://online-offline-budgeteer.herokuapp.com/" target="_blank" rel="noopener noreferrer">Online-Offline Budget Tracker</a></h1>
+      <div className="col allcards">
+        <p className="cardbasics">
+          In this PWA, the user will be able to use the application offline. Once application is back online, all data will be saved and updated.
         </p>
-        <img id="burger" className="basics" src={budget} alt="MVC Burger App"></img>
+        <div className="absolute">
+        <img id="cards" className="basics" src={budget} alt="Budget PWA"></img>
+        </div>
       </div>
     </div>
   );

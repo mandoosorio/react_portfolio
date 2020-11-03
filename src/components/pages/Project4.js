@@ -3,14 +3,15 @@ import burger from "../../imgs/burger_app.png";
 
 function Project4() {
   return (
-    <div>
-      <h1>Project4</h1>
-      <div className="col top-left">
-        <h4><a href="https://mvc-style-burger-app.herokuapp.com" target="_blank" rel="noopener noreferrer">MVC Burger App</a></h4>
-        <p className="basics">
-          An app using MySQL, Node, Express, Handlebars and a homemade ORM. Following MVC design pattern; using Node and MySQL to query and route data, and Handlebars to generate HTML.
+    <div className="relative">
+      <h1><a className="atwo" href="https://mvc-style-burger-app.herokuapp.com" target="_blank" rel="noopener noreferrer">MVC Burger App</a></h1>
+      <div className="col allcards">
+        <p className="cardbasics">
+          With MySQL, Node, Express, Handlebars, a homemade ORM, and Following MVC design pattern we query and route data while generating HTML.
         </p>
-        <img id="burger" className="basics" src={burger} alt="MVC Burger App"></img>
+        <div className="absolute">
+        <img id="cards" className="basics" src={burger} alt="MVC Burger App"></img>
+        </div>
       </div>
     </div>
   );
